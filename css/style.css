@@ -1,0 +1,86 @@
+@import 'normalize.css';
+
+:root{
+  --color_top_right: #EC4946;
+  --color_top_left: #EFF2F6;
+}
+
+* {
+  box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border: 1px solid black;
+}
+
+.top {
+}
+
+.top-nav-wrapper {
+	position: absolute;
+}
+
+.top-nav {
+	position: absolute;
+	margin-top: 50px;
+	display: flex;
+}
+
+.top-nav-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+
+.top-nav-list-left,
+.top-nav-list-right {
+
+}
+
+.top-nav-list-left li,
+.top-nav-list-right li {
+
+}
+
+.top-nav-list-left{
+	margin-right: 860px;
+}
+
+.top-nav-list a {
+	text-decoration: none;
+}
+
+.top-background {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.top-left {
+	width: 60%;
+	height: 100%;
+	background: var(--color_top_left);
+}
+
+.top-right {
+	width: 40%;
+	height: 100%;
+	background: var(--color_top_right);
+}
+
+.rotate {
+	transform: rotateZ(90deg);
+	margin-right: -340px;
+	margin-top: 320px;
+}
+
+.top-right-logo {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 200px;
+}
