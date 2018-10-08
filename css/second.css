@@ -1,0 +1,35 @@
+.second {
+	height: 460px;
+	width: 100%;
+	display: flex;
+}
+
+.second-left {
+	height: 100%;
+	width: 430px;
+	background-image: url("../images/Photo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.second-right {
+	height: 100%;
+	width: 1040px;
+	background-image: url("../images/Photo_2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 2;
+}
+
+.second-right-transparent {
+	height: 100%;
+	width: 40%;
+	background: rgba(0, 0, 0, 0.7);
+	float: left;
+}
+
+.second-right-transparent span {
+	color: #FFF;
+}

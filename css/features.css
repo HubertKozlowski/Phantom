@@ -1,0 +1,39 @@
+.features {
+	height: 450px;
+	width: 100%;
+}
+
+.features-title,
+.features-columns {
+	height: 50%;
+	display: flex;
+}
+
+.features-title h3{
+	margin-top: 110px;
+	font-size: 26px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.col-1-4 {
+	width: 22%;
+	height: 100%;
+}
+
+.feature-tech,
+.feature-signal,
+.feature-use,
+.feature-vis {
+	text-align: center;
+}
+
+.feature-tech span,
+.feature-signal span,
+.feature-use span,
+.feature-vis span {
+	display: block;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
