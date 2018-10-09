@@ -49,15 +49,14 @@
 	transform: rotateZ(90deg);
 	position: relative;
 	top: 80px;
-	left: 120px;
+	left: 100px;
 }
 
 .top-right-logo {
 	text-transform: uppercase;
 	color: #FFF;
-	font-size: 320px;
+	font-size: 310px;
 	font-weight: 700;
-	f
 }
 
 .top-cirlce {

@@ -2,6 +2,10 @@
 @import 'top.css';
 @import 'second.css';
 @import 'features.css';
+@import 'vision.css';
+@import 'flying.css';
+@import 'journey.css';
+@import 'footer.css';
 
 :root{
   --color_top_right: #EC4946;

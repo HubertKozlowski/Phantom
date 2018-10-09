@@ -1,0 +1,14 @@
+.flying {
+	height: 650px;
+	width: 100%;
+}
+
+.flying-drone {
+	height: 440px;
+	width: 680px;
+	float: right;
+	margin-top: 110px;
+	background-image: url("../images/Dron.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
