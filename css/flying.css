@@ -12,3 +12,18 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.flying h2 {
+	color: #000;
+	position: absolute;
+	width: 480px;
+	font-size: 54px;
+	margin: 240px 180px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.flying button {
+	position: absolute;
+	margin: 390px 180px;
+}

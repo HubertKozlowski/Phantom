@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Phantom</title>
-		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
   </head>
@@ -12,9 +12,16 @@
 			<div class="container">
 				<nav class="top-nav">
 					<a class="top-nav-list-left nav-mars" href="#">Mars</a>
-					<span class="top-nav-list-left nav-phone">Telefon</span>
+					<span class="top-nav-list-left nav-phone">
+						<img src="./images/Phone.png" />
+						+ 48 123 456 789
+					</span>
 					<a class="top-nav-list-right nav-buy" href="#">Buy now</a>
-					<a  class="top-nav-list-right nav-menu" href="#">Ham</a>
+					<button class="top-nav-list-right nav-menu hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 				</nav>
 			</div>
 			<div class="top-background">
@@ -23,6 +30,9 @@
 						<h1>Phantom</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						<p>Quisque eget euismod dolor.</p>
+					</div>
+					<div class="rotate-scroll">
+						<span>Scroll down</span>
 					</div>
 				</div>
 				<div class="top-right">
@@ -41,7 +51,7 @@
 				<div class="second-right-transparent">
 					<span>Fly higher than before</span>
 				</div>
-				<button>View more</button>
+				<button class="btn">View more</button>
 			</div>
 		</div>
 
@@ -74,26 +84,26 @@
 		<div class="vision">
 			<div class="vision-left"></div>
 			<div class="vision-right">
-				<h2>New <span>generation</span> of vision</h2>
-				<button>View more</button>
+				<h2>New <span class="colored-span">generation</span> of vision<span class="colored-span">.</span></h2>
+				<button class="btn">View more</button>
 				<div class="vision-logo"></div>
 			</div>
 		</div>
 
 		<div class="flying">
-			<h2>New <span>generation</span> of flying</h2>
-			<button>Products</button>
+			<h2>New <span class="colored-span">generation</span> of flying<span class="colored-span">.</span></h2>
+			<button class="btn">Products</button>
 			<div class="flying-drone"></div>
 		</div>
 
 		<div class="journey">
-			<h2>Start your journey</h2>
-			<button>View more</button>
+			<h2>Start your journey.</h2>
+			<button class="btn">View more</button>
 		</div>
 
 		<div class="footer">
 			Phantom
 		</div>
-
+	<script src='js/out.js'></script>
   </body>
 </html>

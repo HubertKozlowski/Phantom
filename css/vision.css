@@ -19,6 +19,21 @@
 	background: #232323;
 }
 
+.vision-right h2 {
+	color: #FFF;
+	position: absolute;
+	width: 480px;
+	font-size: 54px;
+	margin: 130px 120px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.vision-right button {
+	position: absolute;
+	margin: 280px 120px;
+}
+
 .vision-logo {
 	height: 408px;
 	width: 237px;
@@ -29,6 +44,3 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-flying
-flying-drone

@@ -25,11 +25,22 @@
 
 .second-right-transparent {
 	height: 100%;
-	width: 40%;
+	width: 43%;
 	background: rgba(0, 0, 0, 0.7);
 	float: left;
+	text-align: left;
+	padding: 200px 80px;
 }
 
 .second-right-transparent span {
 	color: #FFF;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.second-right button {
+	transform: rotateZ(-90deg);
+	position: relative;
+	left: 320px;
+	top: 210px;
 }
