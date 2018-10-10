@@ -1,3 +1,5 @@
+require('../css/style.css');
+
 document.addEventListener("DOMContentLoaded", () => {
 
 	var hamburger = document.querySelector('.hamburger');
