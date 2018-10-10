@@ -1,6 +1,9 @@
 # Phantom
 
-## Project presenting products of a electronic company.
+## Project presenting electronic company's portfolio.
+
+To open this application visit:
+https://hubertkozlowski.github.io/Phantom/
 
 ### Technologies and tools:
 
