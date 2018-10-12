@@ -526,10 +526,17 @@ template {
 	position: relative;
 	top: 550px;
 	right: 230px;
+	font-weight: bold;
+	animation: scroll 1s infinite alternate;
+	-moz-animation: scroll 1s infinite alternate;
+	-webkit-animation: scroll 1s infinite alternate;
 }
 
-.rotate-scroll span {
-	font-weight: bold;
+
+@keyframes scroll
+{
+    0% {top:550px;}
+    100% {top:600px;}
 }
 
 .second {
@@ -545,6 +552,38 @@ template {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.big-circle {
+	width: 360px;
+	height: 360px;
+	background: #F3F5F8;
+	position: relative;
+	top: 50%;
+	left: 50%;
+  transform: translate(0, -50%);
+}
+
+.middle-circle {
+	width: 280px;
+	height: 280px;
+	background: #EEF1F5;
+	position: relative;
+	top: 50%;
+  transform: translate(0, -50%);
+}
+
+.small-circle {
+	width: 200px;
+	height: 200px;
+	background: #e9ecf1;
+	position: relative;
+	top: 50%;
+  transform: translate(0, -50%);
 }
 
 .second-right {

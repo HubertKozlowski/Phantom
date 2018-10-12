@@ -184,8 +184,15 @@
 	position: relative;
 	top: 550px;
 	right: 230px;
+	font-weight: bold;
+	animation: scroll 1s infinite alternate;
+	-moz-animation: scroll 1s infinite alternate;
+	-webkit-animation: scroll 1s infinite alternate;
 }
 
-.rotate-scroll span {
-	font-weight: bold;
+
+@keyframes scroll
+{
+    0% {top:550px;}
+    100% {top:600px;}
 }
